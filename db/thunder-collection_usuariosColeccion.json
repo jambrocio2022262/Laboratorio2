@@ -1,0 +1,100 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "usuariosColeccion",
+    "dateExported": "2024-02-06T22:37:42.340Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "01a76fd2-cf76-4d65-bff8-27c0dc4b39b4",
+            "colId": "a9b1cc01-5230-43f9-91a7-2b8e031e96a0",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65c2a4e08c7aebdf57d0165a",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-06T21:50:50.941Z",
+            "modified": "2024-02-06T21:54:04.129Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "563411cd-32c2-49f2-b4be-d362a21e0cb0",
+            "colId": "a9b1cc01-5230-43f9-91a7-2b8e031e96a0",
+            "containerId": "",
+            "name": "get usuarios",
+            "url": "http://localhost:3000/api/usuarios?desde=5&limite=6",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-06T21:51:18.551Z",
+            "modified": "2024-02-06T22:14:49.078Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "desde",
+                    "value": "5",
+                    "isPath": false
+                },
+                {
+                    "name": "limite",
+                    "value": "6",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "27f3ebbc-6dce-4e47-9670-3de09dca229c",
+            "colId": "a9b1cc01-5230-43f9-91a7-2b8e031e96a0",
+            "containerId": "",
+            "name": "post usuarios",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-06T21:55:22.053Z",
+            "modified": "2024-02-06T21:56:22.673Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\":\"test16\",\n    \"correo\":\"test16@gmail.com\",\n    \"password\":\"123456\",\n    \"role\":\"USER_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eab58e9c-c12a-48f3-82e6-38ef5c290b0c",
+            "colId": "a9b1cc01-5230-43f9-91a7-2b8e031e96a0",
+            "containerId": "",
+            "name": "put Usuario",
+            "url": "http://localhost:3000/api/usuarios/65c2a4e58c7aebdf57d0165e",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-02-06T22:10:11.351Z",
+            "modified": "2024-02-06T22:23:18.512Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\":\"Josue Sebastian Ambrocio Alvarado\",\n    \"correo\":\"test7@gmail.com\",\n    \"password\":\"123456\",\n    \"role\":\"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "02ed9b9f-f1fa-4cfa-aa49-2248dce59d9f",
+            "colId": "a9b1cc01-5230-43f9-91a7-2b8e031e96a0",
+            "containerId": "",
+            "name": "delete Usuario",
+            "url": "http://localhost:3000/api/usuarios/65c2a4b88c7aebdf57d0164a",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-02-06T22:22:02.337Z",
+            "modified": "2024-02-06T22:22:57.860Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
