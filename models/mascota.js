@@ -5,7 +5,7 @@ const MascotaSchema = Schema({
         type: String,
         require: [true, 'El nombre de la mascota es obligatorio']
     },
-    especio:{
+    especie:{
         type: String,
         require: [true, 'La especie es obligatoria']
     },
@@ -24,7 +24,12 @@ const MascotaSchema = Schema({
     peso:{
         type: String,
         require: [true, 'El peso es obligatorio']
+    },
+    estado:{
+        type: Boolean,
+        default: true
     }
 });
 
 module.exports = model ('Mascota', MascotaSchema);
+

@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mascotasColeccion",
+    "dateExported": "2024-02-07T23:35:13.499Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e36191b8-2e61-46f6-a457-9824b0158f39",
+            "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
+            "containerId": "",
+            "name": "post mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-07T21:45:44.329Z",
+            "modified": "2024-02-07T23:26:40.308Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\":\"Cefe\",\n    \"especie\":\"Caballo\",\n    \"edad\":\"5 meses\",\n    \"color\":\"Negro\",\n    \"tamaño\":\"Grande\",\n    \"peso\":\"5LB\"\n}\n\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "138afcdd-04d7-43a7-b043-13a604d8c041",
+            "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
+            "containerId": "",
+            "name": "delete mascota ",
+            "url": "http://localhost:3000/api/mascotas/65c4058f7c5813d1b73188bd",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-07T23:06:12.687Z",
+            "modified": "2024-02-07T23:06:51.838Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59497ef3-7f9a-4c22-98e6-0a2c332a3403",
+            "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
+            "containerId": "",
+            "name": "get mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-07T23:11:36.346Z",
+            "modified": "2024-02-07T23:27:50.747Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8c102ea8-3788-44d1-9ee0-6ae153e5e876",
+            "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
+            "containerId": "",
+            "name": "get MascotaById",
+            "url": "http://localhost:3000/api/mascotas/65c4058f7c5813d1b73188bd",
+            "method": "GET",
+            "sortNum": 65000,
+            "created": "2024-02-07T23:14:29.716Z",
+            "modified": "2024-02-07T23:14:40.902Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
