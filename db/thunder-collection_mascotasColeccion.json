@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "mascotasColeccion",
-    "dateExported": "2024-02-07T23:35:13.499Z",
+    "dateExported": "2024-02-20T19:19:35.424Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,12 +14,12 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-02-07T21:45:44.329Z",
-            "modified": "2024-02-07T23:26:40.308Z",
+            "modified": "2024-02-20T19:15:30.742Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"nombre\":\"Cefe\",\n    \"especie\":\"Caballo\",\n    \"edad\":\"5 meses\",\n    \"color\":\"Negro\",\n    \"tamaño\":\"Grande\",\n    \"peso\":\"5LB\"\n}\n\n",
+                "raw": "{\n    \"nombre\":\"Manchas\",\n    \"especie\":\"Gato\",\n    \"edad\":\"2 Meses\",\n    \"color\":\"Blanco y Cafe\",\n    \"tamaño\":\"Chiquito\",\n    \"peso\":\"1LB\"\n}\n\n",
                 "form": []
             },
             "tests": []
@@ -29,11 +29,11 @@
             "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
             "containerId": "",
             "name": "delete mascota ",
-            "url": "http://localhost:3000/api/mascotas/65c4058f7c5813d1b73188bd",
+            "url": "http://localhost:3000/api/mascotas/65c411b0cdbb47e54f47ed2c",
             "method": "DELETE",
             "sortNum": 50000,
             "created": "2024-02-07T23:06:12.687Z",
-            "modified": "2024-02-07T23:06:51.838Z",
+            "modified": "2024-02-20T19:17:11.093Z",
             "headers": [],
             "params": [],
             "tests": []
@@ -57,13 +57,32 @@
             "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
             "containerId": "",
             "name": "get MascotaById",
-            "url": "http://localhost:3000/api/mascotas/65c4058f7c5813d1b73188bd",
+            "url": "http://localhost:3000/api/mascotas/65c411b0cdbb47e54f47ed2c",
             "method": "GET",
             "sortNum": 65000,
             "created": "2024-02-07T23:14:29.716Z",
-            "modified": "2024-02-07T23:14:40.902Z",
+            "modified": "2024-02-20T19:16:00.590Z",
             "headers": [],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "64b09818-623d-43b8-bcae-d53668148bd2",
+            "colId": "9a681302-aab4-4ce6-8dbc-bd53e6002a58",
+            "containerId": "",
+            "name": "put mascotas",
+            "url": "http://localhost:3000/api/mascotas/65c411b0cdbb47e54f47ed2c",
+            "method": "PUT",
+            "sortNum": 75000,
+            "created": "2024-02-20T19:12:18.115Z",
+            "modified": "2024-02-20T19:16:53.502Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\":\"Bruno\",\n    \"especie\":\"Perro\",\n    \"edad\":\"10 meses\",\n    \"color\":\"Cafe\",\n    \"tamaño\":\"Mediano\",\n    \"peso\":\"20LB\"\n}\n",
+                "form": []
+            },
             "tests": []
         }
     ]

@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "usuariosColeccion",
-    "dateExported": "2024-02-06T22:37:42.340Z",
+    "dateExported": "2024-02-20T19:19:21.649Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -24,24 +24,13 @@
             "colId": "a9b1cc01-5230-43f9-91a7-2b8e031e96a0",
             "containerId": "",
             "name": "get usuarios",
-            "url": "http://localhost:3000/api/usuarios?desde=5&limite=6",
+            "url": "http://localhost:3000/api/usuarios",
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-02-06T21:51:18.551Z",
-            "modified": "2024-02-06T22:14:49.078Z",
+            "modified": "2024-02-07T23:33:34.796Z",
             "headers": [],
-            "params": [
-                {
-                    "name": "desde",
-                    "value": "5",
-                    "isPath": false
-                },
-                {
-                    "name": "limite",
-                    "value": "6",
-                    "isPath": false
-                }
-            ],
+            "params": [],
             "tests": []
         },
         {
